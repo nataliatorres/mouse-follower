@@ -1,7 +1,7 @@
-import { useEffect } from "react"
+import { useEffect } from 'react'
 
 function App () {
-  useEffect( () => {
+  useEffect(() => {
     console.log('Efecto')
   })
 
