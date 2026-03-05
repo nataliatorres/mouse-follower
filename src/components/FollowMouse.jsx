@@ -6,7 +6,6 @@ const FollowMouse = () => {
 
   // Moving pointer
   useEffect(() => {
-    console.log('Efecto ', { enabled })
     const handleMovingPointer = (event) => {
       const { clientX, clientY } = event
       setPosition({ x: clientX, y: clientY })
