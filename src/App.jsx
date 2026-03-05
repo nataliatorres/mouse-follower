@@ -8,8 +8,8 @@ function App () {
 
   return (
     <>
-      <NavBar/>
-      <main>
+      <NavBar />
+      <main className='flex justify-center items-center min-h-[calc(100vh-64px)]'>
         <section className='w-105 flex flex-col gap-2.5 py-5'>
           <h1>useEffect & useState hooks for a mouse follower</h1>
           {mounted && <FollowMouse />}
