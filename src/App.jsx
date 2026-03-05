@@ -8,7 +8,7 @@ function App () {
   return (
     <>
       <NavBar/>
-      <main className='flex flex-col gap-[10px]'>
+      <main className='w-[420px] flex flex-col gap-[10px]'>
         <h1>useEffect & useState hooks for a mouse follower</h1>
         {mounted && <FollowMouse />}
         <button onClick={() => setMounted(!mounted)}>Toggle the component</button>
